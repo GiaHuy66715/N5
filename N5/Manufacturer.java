@@ -1,15 +1,15 @@
 public class Manufacturer {
     private String name;
-    private String country;
+    private String origin;
 
     public Manufacturer() {
         this.name = "";
-        this.country = "Viet Nam";
+        this.origin = "";
     }
 
-    public Manufacturer(String name, String country) {
+    public Manufacturer(String name, String origin) {
         this.name = name;
-        this.country = country;
+        this.origin = origin;
     }
 
     public String getName() {
@@ -20,12 +20,11 @@ public class Manufacturer {
         this.name = name;
     }
 
-    public String getCountry() {
-        return this.country;
+    public String getOrigin() {
+        return this.origin;
     }
 
-    public void setCountry(String country) {
-        this.country = country;
+    public void setOrigin(String origin) {
+        this.origin = origin;
     }
-
 }
